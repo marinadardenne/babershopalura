@@ -4,14 +4,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Barbearia Alura</title>
+        <link rel ="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <h1 class="titulo-principal">Barbearia Alura</h1>
-        </header>       
+            <!--<h1 class="titulo-principal">Barbearia Alura</h1>-->
+            <div class="caixa">
+                <h1><img src="assets/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>     
+
         <img id="banner" src="assets/banner.jpg">
+
         <div class="principal"> 
         <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
         <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
@@ -25,7 +38,7 @@
 
         <div class="beneficios">
         <h3 class="titulo-centralizado">Benefícios</h3>
-        <ul>
+        <ul class="servicos">
             <li class="itens">Atendimento ao cliente</li>
             <li class="itens">Espaço diferenciado</li>
             <li class="itens">Profissionais qualificados</li>
